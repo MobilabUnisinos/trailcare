@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutRecursos1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="4pt"
+            android:src="@drawable/hefestos_logo" />
+
+        <TextView
+            android:id="@+id/tvTitulo1"
+            style="@style/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recursos_acessibilidade"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewResources"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.93" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/layoutRecursos7"
+        android:layout_width="fill_parent"
+        android:layout_height="87dp"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layoutRecursos8"
+            android:layout_width="fill_parent"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibSos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffffff"
+                android:src="@drawable/sos"
+                android:onClick="onSosButtonClicked"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

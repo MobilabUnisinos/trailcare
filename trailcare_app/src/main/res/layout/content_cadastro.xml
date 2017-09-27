@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/widget1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imLogo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/hefestos"
+            android:padding="4pt"
+            />
+
+        <TextView
+            android:id="@+id/widget4"
+            style="@style/tvTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome: " />
+
+        <EditText
+            android:id="@+id/edNome"
+            style="@style/editTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/widget40"
+            style="@style/tvTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de recurso: " />
+
+        <EditText
+            android:id="@+id/edTipoRecurso"
+            style="@style/editTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/widget60"
+            style="@style/tvTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de deficiência: " />
+
+        <EditText
+            android:id="@+id/edTipoDeficiencia"
+            style="@style/editTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/widget70"
+            style="@style/tvTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Região: " />
+
+        <EditText
+            android:id="@+id/edRegiao"
+            style="@style/editTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/widget80"
+            style="@style/tvTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contexto: " />
+
+        <EditText
+            android:id="@+id/edContexto"
+            style="@style/editTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/widget6"
+            style="@style/tvTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude: " />
+
+        <EditText
+            android:id="@+id/edLatitude"
+            style="@style/editTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/widget7"
+            style="@style/tvTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude: " />
+
+        <EditText
+            android:id="@+id/edLongitude"
+            style="@style/editTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btSave"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save"
+                android:onClick="onSaveButtonClicked"
+                />
+
+            <Button
+                android:id="@+id/btClear"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/clear"
+                android:onClick="onClearButtonClicked"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

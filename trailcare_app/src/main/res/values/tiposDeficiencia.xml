@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_deficiencia">
+        <item></item>
+        <item>Auditiva</item>
+        <item>Visual</item>
+        <item>Física</item>
+        <item>Múltipla</item>
+    </string-array>
+    <string-array name="tipos_deficiencia_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+    <string-array name="tipos_recursos">
+        <item></item>
+        <item>Vaga de estacionamento</item>
+        <item>Rampa</item>
+        <item>Elevador</item>
+        <item>Toalete</item>
+        <item>Atendimento</item>
+        <item>Ponto Crítico</item>
+        <item>Alimentação</item>
+        <item>Telefone</item>
+        <item>Atendimento Bancário</item>
+        <item>Farmácias</item>
+        <item>Lojas</item>
+        <item>Auditórios</item>
+        <item>Padrão</item>
+    </string-array>
+
+    <string-array name="tipos_recursos_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+</resources>
